@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+</head>
+<body>
+    <h1>Đăng kí tài khoản mới</h1>
+    <p>Vui lòng điền đầy đủ thông tin bên dưới để đăng kí tài khoản mới</p>
+    <form>
+        <table>
+            <tr>
+                <td>Tên đăng nhập</td>
+                <td><input type="text" name="dangnhap" /></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" name="matkhau" /></td>
+            </tr>
+            <tr>
+                <td>Gõ lại mật khẩu</td>
+                <td><input type="password" name="matkhau2" /></td>
+            </tr>
+            <tr>
+                <td>Hình đại diện</td>
+                <td><input type="file" name="hinhdaidien" /></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" name="gt" value="Nam" /> Nam
+                    <input type="radio" name="gt" value="Nữ" /> Nữ
+                    <input type="radio" name="gt" value="Khác" /> Khác
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <select name="nghenghiep">
+                        <option value="Học sinh">Học sinh</option>
+                        <option value="Sinh viên">Sinh viên</option>
+                        <option value="Giáo viên">Giáo viên</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích</td>
+                <td>
+                    <input type="checkbox" name="st" value="Thể thao" /> Thể thao
+                    <input type="checkbox" name="st" value="Du lịch" /> Du lịch
+                    <input type="checkbox" name="st" value="Âm nhạc" /> Âm nhạc
+                    <input type="checkbox" name="st" value="Thời trang" /> Thời trang
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" value="Đăng kí" />
+                    <input type="button" value="Làm lại" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

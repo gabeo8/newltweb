@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  background-color: #f5f7fb;
+}
+input,
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.container {
+  margin-left: 20%;
+  padding: 30px;
+  height: 100vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* util */
+.text-center {
+  text-align: center;
+}
+/* product page */
+
+.product {
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.product td,
+.product th {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.product tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.product tr:first-child {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.product td:first-child {
+  text-align: center;
+  width: 60px;
+}
+
+.product td:nth-child(4),
+.product td:nth-child(5),
+.product td:nth-child(6) {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* add product page */
+
+.addproduct-page {
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  width: 62%;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.addproduct-page tr {
+  padding: 10px;
+}
+
+/* button */
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+}
+.show-img {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 888;
+}
+
+.search {
+  margin: 15px;
+}
